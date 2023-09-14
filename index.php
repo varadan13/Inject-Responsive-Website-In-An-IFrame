@@ -1,14 +1,15 @@
 <?php
-    $site_name = "Seagulls Frankston";
-    $kravein_url = "//www.kravein.com.au/place/seagulls-greek-taverna-frankston";
+    $site_name = "Example.Com";
+    $url = "//example.com";
     $page = $_SERVER["REQUEST_URI"];
-    $redirect_url = $kravein_url . $page;
+    $redirect_url = $url . $page;
 ?>
 <html>
 <head>
     <title><?php echo $site_name ?></title>
     <meta name="description" content="<?php echo $site_name ?>">
     <meta name="keywords" content="<?php echo $site_name ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
